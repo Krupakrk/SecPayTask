@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.23">
+    <testcase classname="Fill contact details in the contact details form of the secure pay website" name="Enter the contact details in the contact details page" time="17.973">
+        <system-out><![CDATA[Given I am google search page...............................................passed
+And I search for SecurePay on google........................................passed
+When I click through the Securepay website..................................passed
+And I navigate to the contact us page.......................................passed
+And I verify the contact page is loaded.....................................passed
+Then I generate random data.................................................passed
+And I use the generated data to fill in the contact us form.................passed
+And I close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

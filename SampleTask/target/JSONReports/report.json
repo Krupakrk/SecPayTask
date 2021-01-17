@@ -1,0 +1,135 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-16T05:44:08.051Z",
+        "line": 6,
+        "name": "Enter the contact details in the contact details page",
+        "description": "",
+        "id": "fill-contact-details-in-the-contact-details-form-of-the-secure-pay-website;enter-the-contact-details-in-the-contact-details-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7798972700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am google search page",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_am_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6286899400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for SecurePay on google",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_search_for_SecurePay_on_google()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167903100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click through the Securepay website",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_click_through_the_Securepay_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1613078600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to the contact us page",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_navigate_to_the_contact_us_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the contact page is loaded",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_verify_the_contact_page_is_loaded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I generate random data",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_generate_random_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I use the generated data to fill in the contact us form",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_use_the_generated_data_to_fill_in_the_contact_us_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1917822500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I close the browser",
+            "match": {
+              "location": "StepDefinitions.contactDetails_PageFactory.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeFeature"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Fill contact details in the contact details form of the secure pay website",
+    "description": "",
+    "id": "fill-contact-details-in-the-contact-details-form-of-the-secure-pay-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/contactDetails.feature",
+    "tags": [
+      {
+        "name": "@smokeFeature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
